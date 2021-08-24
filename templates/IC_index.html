@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>SVHN Model as a Flask API</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <img src="/static/kkpraxis.png" alt="logo kk praxis">
+    <h1> Praxis Data Science </h1>
+    <h2>Google Street View House Number Predictor</h1>
+
+     <form action="/predict" method="post" enctype="multipart/form-data">
+     <input type="file" name="image" value="Upload">
+     <input type="submit" value="Predict"> {% if label %} {{ label }} {% endif %}
+     </form>
+   <hr>
+   based on the tutorial at https://blog.hyperiondev.com/index.php/2018/02/01/deploy-machine-learning-model-flask-api/
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
