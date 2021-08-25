@@ -2,4 +2,5 @@
 [Praxis Business School](https://praxis.ac.in)<br>
 ## Data Engineering Model Deployment
 
-Codes used in the class
+Codes used in the class.
+Praxis-QR
